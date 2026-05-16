@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #baf3cb;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 30ch;
+  gap: 1rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #08d345, 0 0 0.1rem #12f058, 0 0 0.1rem #00d2ff;
+}
